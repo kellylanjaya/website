@@ -1,0 +1,87 @@
+.login-box-outer{
+    max-width: 450px;
+    padding: 60px;
+    position: relative;
+    z-index: 99;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color:white;
+    border-radius: 15%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ 
+ .login-box-outer h1{
+    font-size: 32px;
+    color: #152238;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 10%;
+    text-align: center;
+ }
+  
+ .login-box-outer input{
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    background: white;
+    color: #152238;
+    border: 1px solid#152238;
+    padding-left: 15px;
+    box-sizing: border-box;
+ }
+  
+ .login-box-outer input::placeholder, .login-box-outer input::-webkit-placeholder{
+    color: #152238;
+ }
+ 
+ .input-wrap{
+    margin-bottom: 25px;
+ }
+  
+ .input-wrap button{
+    height: 50px;
+    width: 100%;
+    background: #152238;
+    border: 1px solid #152238;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+ }
+  
+ .remember{
+    display: flex;
+    align-items: center;
+ }
+ 
+ .remember-help{
+    display: flex;
+    justify-content: space-between;
+    color: #152238;
+    font-size: 12px;
+ }
+  
+ .remember-help input{
+    width: 15px;
+    height: 15px;
+ }
+  
+ .new-to-letflix p{
+    color: grey;
+    font-size: 12px;
+    margin-top: 3px;
+ }
+  
+ .new-to-letflix p a{
+    color: #152238;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+ }
+  
+ .login-footer{
+    margin-top: 30px;
+ }
+ 

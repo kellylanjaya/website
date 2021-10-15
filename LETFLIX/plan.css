@@ -1,0 +1,57 @@
+.trial{
+    margin-top: 3%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trial-button{
+    background-color:#e50914;
+    border: none;
+    padding: 10px 50px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.trial-button h1{
+    font-size: 21px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.trial-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    padding-top: 10px;    
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    line-height: 35px;
+}
+
+.bronze{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.gold{
+    padding-right: 2%;
+}
+.centermid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
